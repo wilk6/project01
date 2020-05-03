@@ -5,7 +5,7 @@ export const Weather = ({ weather }) => {
     <div className='Weather'>
       <figure>
         {" "}
-        <img src={`http://openweathermap.org/img/wn/${weather.icon}@2x.png`} alt='blad' />
+        <img src={`https://openweathermap.org/img/wn/${weather.icon}@2x.png`} alt='blad' />
       </figure>
       <p>
         <span>Miasto: </span>

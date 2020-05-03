@@ -17,7 +17,7 @@ const App = () => {
     humidity: "",
   })
   const [town, setTown] = useState("Warszawa")
-  const Api_url = `http://api.openweathermap.org/data/2.5/weather?q=${town}&units=metric&appid=92aec1912fb9a605ef4f50a1975508a0`
+  const Api_url = `https://api.openweathermap.org/data/2.5/weather?q=${town}&units=metric&appid=92aec1912fb9a605ef4f50a1975508a0`
 
   useEffect(
     () => {
