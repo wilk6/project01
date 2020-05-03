@@ -66,3 +66,13 @@ html,body, #root   {
 	grid-column: 3/4;
 	place-self: center;
 }
+@media screen and (max-width: 600px){
+	.container{
+		padding: 0;
+	}
+	.Search{
+		grid-row: 2/3;
+		grid-column: 1/4;
+		place-self: center;
+	}
+}
